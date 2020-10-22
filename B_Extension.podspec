@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "B_Extension"
   s.version      = "0.0.1"
-  s.swift_version = '5.1'
+  s.swift_version = '5.3'
   s.summary      = "B_Extension."
   s.description  = <<-DESC
                     this is B_Extension
