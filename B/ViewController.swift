@@ -1,19 +1,21 @@
 //
 //  ViewController.swift
-//  B
 //
-//  Created by lingjie on 2020/10/22.
+//  Created by casa on 2020/2/21.
+//  Copyright © 2020 casa. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        title = "HomePage"
     }
-
-
+    
+    @IBAction func showDemo(_ sender: Any) {
+        let vc = DemoViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
-
