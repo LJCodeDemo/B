@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.dependency "A_Extension"
-  s.dependency 'CTMediator'
+  s.dependency "A_Extension", '~> 0.0.1'
+  s.dependency 'CTMediator', '~> 44'
 end
